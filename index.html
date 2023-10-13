@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
-<body style="background-color:aquamarine;">
 <head>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono&display=swap" rel="stylesheet">
 	<title>Karl Emissions</title>
 	<link rel="stylesheet" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 	<div class="container">
 		<div class="intro">
-			<img src="portfolio/images/truck" />
+			<img class="truck" src="images/truck.jpg" />
 			<h1>Karl Emissions</h1>
 			<h3>A California Emissions Standards Certified Tester</h3>
-   			<p>State Licensed to meet California State Emission Standards and Requirements</p>
+   			<p class="quote">State Licensed to meet California State Emission Standards and Requirements</p>
 		</div>
 		<div class="about-grid">
 			<div class="i-am">
@@ -27,11 +28,11 @@
 			
 		</div>
 		<div>
-			<h3 class="projects-heading">My Projects</h3>
+			<h3 class="projects-heading">Services Offered</h3>
 			<div class="projects-grid">
-				<img class="project-image" src="https://via.placeholder.com/300"/>
-				<img class="project-image" src="https://via.placeholder.com/300"/>
-				<img class="project-image" src="https://via.placeholder.com/300"/>
+				<img class="project-image" src="images/exhaust diagram.jpg"/>
+				<img class="project-image" src="images/diagnostic tool.jpg"/>
+				<img class="project-image" src="images/pm.jpg"/>
 				<img class="project-image" src="https://via.placeholder.com/300"/>
 			</div>
 		</div>
@@ -53,16 +54,19 @@
 			<div>
 				<form action="#">
 					<label for="email">
-						Email: <input type="email" id="email" placeholder="Enter your email" /> 
+						<h4>Email</h4>
+						<input type="email" id="email" placeholder="Enter your email" />
 					</label>
 					<label for="message">
-						Message: <textarea id="message">Your Message</textarea>
+						<h4>Message</h4>
+						<textarea id="message">Your Message</textarea>
 					</label>
-					<input type="submit" valid="Send Message" />
+					<div class="submit-button-wrapper">
+						<input type="submit" valid="Send Message" />
+					</div>
 				</form>
 			</div>
 		</div>
 	</div>
-</body>
 </body>
 </html>
